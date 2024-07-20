@@ -37,7 +37,6 @@
         font-size: 40px;
       }
 
-
       #navbarr {
         display: flex;
         justify-content: center; /* Centers the navbar horizontally */
@@ -76,6 +75,22 @@
 
       #actual-content {
         text-align: center;
+        margin: 0 225px 0 225px;
+      }
+
+      @media (max-width: 600px) {
+        #actual-content {
+          text-align: center;
+          margin: 0 20px 0 20px;
+        }
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
       }
     </style>
   </head>
@@ -91,7 +106,13 @@
               <li><a href="links.html">[Links]</a></li>
               <li><a href="gallery.html">[Gallery]</a></li>
               <li><a href="about.html">[About me]</a></li>
-              <li><a href="contact.html"  style="text-decoration: underline; color: red;">[Contact]</a></li>
+              <li>
+                <a
+                  href="contact.html"
+                  style="text-decoration: underline; color: red"
+                  >[Contact]</a
+                >
+              </li>
             </ul>
           </nav>
         </div>
@@ -99,10 +120,18 @@
     </div>
     <br />
     <div id="actual-content">
-        <p>I just have <a href="https://github.com/YourTilak" target="_blank" style="text-decoration: none;  color: red">github</a></p>
+      <p>
+        I just have
+        <a
+          href="https://github.com/YourTilak"
+          target="_blank"
+          style="text-decoration: none; color: red"
+          >github</a
+        >
+      </p>
     </div>
     <footer>
-        <a href="http://www.anybrowser.org/campaign/"
+      <a href="http://www.anybrowser.org/campaign/"
         ><img
           src="files/images/any-browser.gif"
           width="graphic-width-in-pixels"
