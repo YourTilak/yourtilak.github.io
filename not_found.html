@@ -37,7 +37,6 @@
         font-size: 40px;
       }
 
-
       #navbarr {
         display: flex;
         justify-content: center; /* Centers the navbar horizontally */
@@ -76,6 +75,22 @@
 
       #actual-content {
         text-align: center;
+        margin: 0 225px 0 225px;
+      }
+
+      @media (max-width: 600px) {
+        #actual-content {
+          text-align: center;
+          margin: 0 20px 0 20px;
+        }
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
       }
     </style>
   </head>
@@ -99,10 +114,10 @@
     </div>
     <br />
     <div id="actual-content">
-      <h1  style="text-decoration: underline; color: red;">ERROR 404!!</h1>
+      <h1 style="text-decoration: underline; color: red">ERROR 404!!</h1>
     </div>
     <footer>
-        <a href="http://www.anybrowser.org/campaign/"
+      <a href="http://www.anybrowser.org/campaign/"
         ><img
           src="files/images/any-browser.gif"
           width="graphic-width-in-pixels"
