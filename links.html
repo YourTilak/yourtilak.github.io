@@ -37,7 +37,6 @@
         font-size: 40px;
       }
 
-
       #navbarr {
         display: flex;
         justify-content: center; /* Centers the navbar horizontally */
@@ -76,6 +75,22 @@
 
       #actual-content {
         text-align: center;
+        margin: 0 225px 0 225px;
+      }
+
+      @media (max-width: 600px) {
+        #actual-content {
+          text-align: center;
+          margin: 0 20px 0 20px;
+        }
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
       }
     </style>
   </head>
@@ -88,7 +103,13 @@
             <ul class="nav-list">
               <li><a href="index.html">[Home]</a></li>
               <li><a href="blogs.html">[Blogs]</a></li>
-              <li><a href="links.html"  style="text-decoration: underline; color: red;">[Links]</a></li>
+              <li>
+                <a
+                  href="links.html"
+                  style="text-decoration: underline; color: red"
+                  >[Links]</a
+                >
+              </li>
               <li><a href="gallery.html">[Gallery]</a></li>
               <li><a href="about.html">[About me]</a></li>
               <li><a href="contact.html">[Contact]</a></li>
@@ -99,10 +120,10 @@
     </div>
     <br />
     <div id="actual-content">
-      <p>Wait!</p>
+      <p>Wait!!</p>
     </div>
     <footer>
-        <a href="http://www.anybrowser.org/campaign/"
+      <a href="http://www.anybrowser.org/campaign/"
         ><img
           src="files/images/any-browser.gif"
           width="graphic-width-in-pixels"
