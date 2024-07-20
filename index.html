@@ -37,7 +37,6 @@
         font-size: 40px;
       }
 
-
       #navbarr {
         display: flex;
         justify-content: center; /* Centers the navbar horizontally */
@@ -76,6 +75,22 @@
 
       #actual-content {
         text-align: center;
+        margin: 0 225px 0 225px;
+      }
+
+      @media (max-width: 600px) {
+        #actual-content {
+          text-align: center;
+          margin: 0 20px 0 20px;
+        }
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
       }
     </style>
   </head>
@@ -86,7 +101,13 @@
         <div>
           <nav id="navbarr">
             <ul class="nav-list">
-              <li><a href="index.html" style="text-decoration: underline; color: red;">[Home]</a></li>
+              <li>
+                <a
+                  href="index.html"
+                  style="text-decoration: underline; color: red"
+                  >[Home]</a
+                >
+              </li>
               <li><a href="blogs.html">[Blogs]</a></li>
               <li><a href="links.html">[Links]</a></li>
               <li><a href="gallery.html">[Gallery]</a></li>
@@ -99,17 +120,16 @@
     </div>
     <br />
     <div id="actual-content">
-      <p>Welcome this is my personal website,
-        I will upload content soon!!</p>
+      <p>Welcome this is my personal website, I will upload content soon!!</p>
     </div>
     <footer>
       <a href="http://www.anybrowser.org/campaign/"
-      ><img
-        src="files/images/any-browser.gif"
-        width="graphic-width-in-pixels"
-        height="graphic-height-in-pixels"
-        alt="Viewable With Any Browser"
-    /></a>
-  </footer>
+        ><img
+          src="files/images/any-browser.gif"
+          width="graphic-width-in-pixels"
+          height="graphic-height-in-pixels"
+          alt="Viewable With Any Browser"
+      /></a>
+    </footer>
   </body>
 </html>
