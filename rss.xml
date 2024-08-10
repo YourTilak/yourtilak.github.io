@@ -2,16 +2,17 @@
 <rss version="2.0">
     <channel>
         <title>Tilak's Webpage</title>
-        <link>https://tilak.is-a.dev</link>
-        <description>Get latest content first from Tilak's webpage!! </description>
+        <link>https://tilak.is-a.dev/</link>
+        <description>Stay updated with the latest posts and insights from Tilak's Webpage.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 10 Aug 2024 08:00:00 +0530</lastBuildDate>
-        
+        <lastBuildDate>Sat, 10 Aug 2024 02:30:00 +0000</lastBuildDate>
+        <ttl>60</ttl>
+
         <item>
-            <title>Soon...</title>
+            <title>Exciting Content Coming Soon</title>
             <link>https://tilak.is-a.dev/blogs.html</link>
-            <description>Soon i will be posting stuff on my website too.</description>
-            <pubDate>Mon, 08 Aug 2024 08:00:00 +0530</pubDate>
+            <description>New and engaging content will be available soon. Stay tuned!</description>
+            <pubDate>Sat, 10 Aug 2024 02:30:00 +0000</pubDate>
             <guid>https://tilak.is-a.dev/blogs.html</guid>
         </item>
     
